@@ -4,11 +4,17 @@ require_relative('../drink')
 
 class DrinkTest < MiniTest::Test
 
-def setup()
+  def setup()
+      @drink = Drink.new("wine", 5.0)
+  end
 
 
-end
 
+  def drink_has_name_test()
+    assert_equals("wine", @drink.name())
+  end
+
+  
 
 
 
