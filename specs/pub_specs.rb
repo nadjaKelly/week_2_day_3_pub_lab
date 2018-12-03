@@ -18,8 +18,9 @@ def pub_has_till_test()
   assert_equal(1000, @pub.till)
 end
 
-def pub_has_drinks()
+def pub_has_drinks_test()
   assert_equal(3, @pub.drinks().length())
 end
+
 
 end
