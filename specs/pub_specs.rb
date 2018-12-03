@@ -10,13 +10,8 @@ def setup()
 
 end
 
-
-
-
-
-
-
-
-
+def pub_has_name_test()
+assert_equal("The Red Lion", @pub.name())
+end
 
 end
